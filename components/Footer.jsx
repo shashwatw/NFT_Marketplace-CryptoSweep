@@ -51,7 +51,9 @@ const Footer = () => {
               className="h-full flex-1 w-full dark:bg-nft-black-2 bg-white px-4 rounded-md dark:text-white text-nft-black-1 font-normal text-xs minlg:text-lg outline-none"
             />
             <div className="flex-initial">
-              <Button btnName="Email me" classStyles="rounded-md" />
+              <a href="mailto:shashwatwankhedekar@gmail.com">
+                <Button btnName="Email me" classStyles="rounded-md" />
+              </a>
             </div>
           </div>
         </div>
